@@ -1,0 +1,22 @@
+# Add this to the file:
+opacity-rule = [
+    "90:class_g = 'firefox'",
+    "95:class_g = 'firefox' && focused",
+    "85:class_g = 'firefox' && !focused"
+];
+
+# Optional: Add subtle blur
+blur-background = true;
+blur-method = "kernel";
+blur-strength = 3;
+blur-background-exclude = [
+    "window_type = 'dock'",
+    "window_type = 'desktop'"
+];
+
+# Fading
+fading = true;
+fade-in-step = 0.03;
+fade-out-step = 0.03;
+
+backend = "glx";
