@@ -1,0 +1,44 @@
+[window]
+opacity = 0.85
+decorations = "none"
+padding = { x = 10, y = 10 }
+
+[font]
+size = 13
+normal = { family = "Liberation Mono", style = "Regular" }
+bold = { family = "Liberation Mono", style = "Bold" }
+
+
+[colors]
+# Fallout PIP-BOY style
+primary.background = "#001100"  # Very dark green
+primary.foreground = "#00ff41"  # PIP-BOY green
+cursor.cursor = "#00ff41"
+cursor.text = "#001100"
+
+[colors.normal]
+black   = "#002200"
+red     = "#ff0041"
+green   = "#00ff41"
+yellow  = "#ffff41"
+blue    = "#0041ff"
+magenta = "#ff41ff"
+cyan    = "#41ffff"
+white   = "#c0c0c0"
+
+[colors.bright]
+black   = "#404040"
+red     = "#ff4141"
+green   = "#41ff41"
+yellow  = "#ffff41"
+blue    = "#4141ff"
+magenta = "#ff41ff"
+cyan    = "#41ffff"
+white   = "#ffffff"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
