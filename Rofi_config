@@ -1,0 +1,21 @@
+* {
+    background-color: #001100;
+    text-color: #00ff41;
+    border-color: #00ff41;
+}
+window {
+    background-color: #001100;
+    border: 1px;
+    border-color: #00ff41;
+    border-radius: 0px;
+    padding: 10px;
+}
+element {
+    background-color: #001100;
+    text-color: #00ff41;
+    padding: 5px;
+}
+element selected {
+    background-color: #00ff41;
+    text-color: #001100;
+}
